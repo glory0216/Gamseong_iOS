@@ -38,15 +38,10 @@ class LoginDetailViewController: InitViewController {
             return
         }
         
-        let loginParams = ["id" : userEmail! as String,
+        let loginParams = ["account" : userEmail! as String,
                            "password" : userPassword! as String]
         
-        //loginWithAlamofire(loginParams)
-        
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let revealViewController = storyboard.instantiateViewControllerWithIdentifier("RevealViewController") as! SWRevealViewController
-        let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
-        appDelegate.window?.rootViewController = revealViewController
+        loginWithAlamofire(loginParams)
         
     }
     

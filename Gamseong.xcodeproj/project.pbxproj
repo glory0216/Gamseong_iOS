@@ -152,7 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				5DF0AECB1E13AEA800A10BC2 /* SWRevealViewController */,
-				5D93C6831E12C74300D628FB /* ViewController */,
+				5D93C6831E12C74300D628FB /* ViewControllers */,
 				5D52DEC81E05117E00330279 /* AppDelegate.swift */,
 				5D52DECC1E05117E00330279 /* Main.storyboard */,
 				5D52DECF1E05117E00330279 /* Assets.xcassets */,
@@ -180,7 +180,7 @@
 			path = GamseongUITests;
 			sourceTree = "<group>";
 		};
-		5D93C6831E12C74300D628FB /* ViewController */ = {
+		5D93C6831E12C74300D628FB /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
 				5D93C68A1E12CDDE00D628FB /* InitViewController.swift */,
@@ -195,7 +195,7 @@
 				5DF0AEC91E139C1800A10BC2 /* FeedsTableViewCell.swift */,
 				5D93C6881E12C94800D628FB /* MessageViewController.swift */,
 			);
-			name = ViewController;
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		5DF0AECB1E13AEA800A10BC2 /* SWRevealViewController */ = {
