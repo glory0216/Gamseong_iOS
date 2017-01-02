@@ -47,6 +47,12 @@ class LoginDetailViewController: InitViewController {
     
     @IBAction func touchCancelBtn(sender: AnyObject) {
         
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let loginViewController = storyboard.instantiateViewControllerWithIdentifier("LoginVC") as! LoginViewController
+        let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+        appDelegate.window?.rootViewController = loginViewController
+        
     }
+
     
 }

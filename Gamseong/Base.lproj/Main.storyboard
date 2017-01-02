@@ -737,20 +737,20 @@
                                                 </button>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="o86-pK-pqs" firstAttribute="top" secondItem="iEn-OA-kiJ" secondAttribute="topMargin" id="5LE-ed-Uvm"/>
-                                                <constraint firstItem="o86-pK-pqs" firstAttribute="leading" secondItem="iEn-OA-kiJ" secondAttribute="leadingMargin" constant="64" id="FgP-fF-8vO"/>
-                                                <constraint firstItem="o86-pK-pqs" firstAttribute="bottom" secondItem="iEn-OA-kiJ" secondAttribute="bottomMargin" id="J7z-Jo-jSG"/>
-                                                <constraint firstItem="o86-pK-pqs" firstAttribute="trailing" secondItem="iEn-OA-kiJ" secondAttribute="trailingMargin" id="fUb-L6-c6W"/>
+                                                <constraint firstItem="o86-pK-pqs" firstAttribute="trailing" secondItem="iEn-OA-kiJ" secondAttribute="trailingMargin" id="VBm-Ed-Trm"/>
+                                                <constraint firstItem="o86-pK-pqs" firstAttribute="leading" secondItem="iEn-OA-kiJ" secondAttribute="leadingMargin" constant="64" id="bcj-I3-wgi"/>
+                                                <constraint firstItem="o86-pK-pqs" firstAttribute="bottom" secondItem="iEn-OA-kiJ" secondAttribute="bottomMargin" id="io0-nA-y5l"/>
+                                                <constraint firstItem="o86-pK-pqs" firstAttribute="top" secondItem="iEn-OA-kiJ" secondAttribute="topMargin" id="wNb-Iy-AHZ"/>
                                             </constraints>
                                             <variation key="default">
                                                 <mask key="subviews">
                                                     <exclude reference="o86-pK-pqs"/>
                                                 </mask>
                                                 <mask key="constraints">
-                                                    <exclude reference="5LE-ed-Uvm"/>
-                                                    <exclude reference="FgP-fF-8vO"/>
-                                                    <exclude reference="J7z-Jo-jSG"/>
-                                                    <exclude reference="fUb-L6-c6W"/>
+                                                    <exclude reference="VBm-Ed-Trm"/>
+                                                    <exclude reference="bcj-I3-wgi"/>
+                                                    <exclude reference="io0-nA-y5l"/>
+                                                    <exclude reference="wNb-Iy-AHZ"/>
                                                 </mask>
                                             </variation>
                                             <variation key="widthClass=compact">
@@ -758,10 +758,10 @@
                                                     <include reference="o86-pK-pqs"/>
                                                 </mask>
                                                 <mask key="constraints">
-                                                    <include reference="5LE-ed-Uvm"/>
-                                                    <include reference="FgP-fF-8vO"/>
-                                                    <include reference="J7z-Jo-jSG"/>
-                                                    <include reference="fUb-L6-c6W"/>
+                                                    <include reference="VBm-Ed-Trm"/>
+                                                    <include reference="bcj-I3-wgi"/>
+                                                    <include reference="io0-nA-y5l"/>
+                                                    <include reference="wNb-Iy-AHZ"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
@@ -782,20 +782,20 @@
                                                 </button>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="l41-GR-bIE" firstAttribute="leading" secondItem="VOQ-yV-J5T" secondAttribute="leadingMargin" constant="64" id="F2j-GE-X2T"/>
-                                                <constraint firstItem="l41-GR-bIE" firstAttribute="top" secondItem="VOQ-yV-J5T" secondAttribute="topMargin" constant="1" id="Hzs-hA-OC4"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="l41-GR-bIE" secondAttribute="bottom" constant="-1" id="O5e-Jf-S57"/>
-                                                <constraint firstItem="l41-GR-bIE" firstAttribute="trailing" secondItem="VOQ-yV-J5T" secondAttribute="trailingMargin" id="fce-sD-cqV"/>
+                                                <constraint firstItem="l41-GR-bIE" firstAttribute="leading" secondItem="VOQ-yV-J5T" secondAttribute="leadingMargin" constant="64" id="S9T-Or-8On"/>
+                                                <constraint firstItem="l41-GR-bIE" firstAttribute="trailing" secondItem="VOQ-yV-J5T" secondAttribute="trailingMargin" id="aUm-me-pRt"/>
+                                                <constraint firstItem="l41-GR-bIE" firstAttribute="top" secondItem="VOQ-yV-J5T" secondAttribute="topMargin" constant="1" id="dS8-D6-Lrz"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="l41-GR-bIE" secondAttribute="bottom" constant="-1" id="fhc-Qb-Of6"/>
                                             </constraints>
                                             <variation key="default">
                                                 <mask key="subviews">
                                                     <exclude reference="l41-GR-bIE"/>
                                                 </mask>
                                                 <mask key="constraints">
-                                                    <exclude reference="F2j-GE-X2T"/>
-                                                    <exclude reference="Hzs-hA-OC4"/>
-                                                    <exclude reference="O5e-Jf-S57"/>
-                                                    <exclude reference="fce-sD-cqV"/>
+                                                    <exclude reference="S9T-Or-8On"/>
+                                                    <exclude reference="aUm-me-pRt"/>
+                                                    <exclude reference="dS8-D6-Lrz"/>
+                                                    <exclude reference="fhc-Qb-Of6"/>
                                                 </mask>
                                             </variation>
                                             <variation key="widthClass=compact">
@@ -803,10 +803,10 @@
                                                     <include reference="l41-GR-bIE"/>
                                                 </mask>
                                                 <mask key="constraints">
-                                                    <include reference="F2j-GE-X2T"/>
-                                                    <include reference="Hzs-hA-OC4"/>
-                                                    <include reference="O5e-Jf-S57"/>
-                                                    <include reference="fce-sD-cqV"/>
+                                                    <include reference="S9T-Or-8On"/>
+                                                    <include reference="aUm-me-pRt"/>
+                                                    <include reference="dS8-D6-Lrz"/>
+                                                    <include reference="fhc-Qb-Of6"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
@@ -827,20 +827,20 @@
                                                 </button>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="kbf-al-wnh" firstAttribute="trailing" secondItem="aTf-89-NUG" secondAttribute="trailingMargin" id="2vf-ma-myv"/>
-                                                <constraint firstItem="kbf-al-wnh" firstAttribute="top" secondItem="aTf-89-NUG" secondAttribute="topMargin" constant="1" id="6e3-iy-oZT"/>
-                                                <constraint firstItem="kbf-al-wnh" firstAttribute="leading" secondItem="aTf-89-NUG" secondAttribute="leadingMargin" constant="64" id="RAG-CX-Y2u"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="kbf-al-wnh" secondAttribute="bottom" constant="-1" id="fq2-xg-Pfd"/>
+                                                <constraint firstItem="kbf-al-wnh" firstAttribute="trailing" secondItem="aTf-89-NUG" secondAttribute="trailingMargin" id="HDo-ZB-4Hz"/>
+                                                <constraint firstItem="kbf-al-wnh" firstAttribute="leading" secondItem="aTf-89-NUG" secondAttribute="leadingMargin" constant="64" id="NdX-BO-vDx"/>
+                                                <constraint firstItem="kbf-al-wnh" firstAttribute="top" secondItem="aTf-89-NUG" secondAttribute="topMargin" constant="1" id="eSM-nj-Lxb"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="kbf-al-wnh" secondAttribute="bottom" constant="-1" id="oV6-bz-jH0"/>
                                             </constraints>
                                             <variation key="default">
                                                 <mask key="subviews">
                                                     <exclude reference="kbf-al-wnh"/>
                                                 </mask>
                                                 <mask key="constraints">
-                                                    <exclude reference="2vf-ma-myv"/>
-                                                    <exclude reference="6e3-iy-oZT"/>
-                                                    <exclude reference="RAG-CX-Y2u"/>
-                                                    <exclude reference="fq2-xg-Pfd"/>
+                                                    <exclude reference="HDo-ZB-4Hz"/>
+                                                    <exclude reference="NdX-BO-vDx"/>
+                                                    <exclude reference="eSM-nj-Lxb"/>
+                                                    <exclude reference="oV6-bz-jH0"/>
                                                 </mask>
                                             </variation>
                                             <variation key="widthClass=compact">
@@ -848,10 +848,10 @@
                                                     <include reference="kbf-al-wnh"/>
                                                 </mask>
                                                 <mask key="constraints">
-                                                    <include reference="2vf-ma-myv"/>
-                                                    <include reference="6e3-iy-oZT"/>
-                                                    <include reference="RAG-CX-Y2u"/>
-                                                    <include reference="fq2-xg-Pfd"/>
+                                                    <include reference="HDo-ZB-4Hz"/>
+                                                    <include reference="NdX-BO-vDx"/>
+                                                    <include reference="eSM-nj-Lxb"/>
+                                                    <include reference="oV6-bz-jH0"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
@@ -872,20 +872,20 @@
                                                 </button>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="yKp-jl-rIX" firstAttribute="top" secondItem="cyL-9Q-Hoh" secondAttribute="topMargin" id="0yq-CP-aga"/>
-                                                <constraint firstItem="yKp-jl-rIX" firstAttribute="leading" secondItem="cyL-9Q-Hoh" secondAttribute="leadingMargin" constant="64" id="9wk-Li-oed"/>
-                                                <constraint firstItem="yKp-jl-rIX" firstAttribute="trailing" secondItem="cyL-9Q-Hoh" secondAttribute="trailingMargin" id="QZt-CN-g5h"/>
-                                                <constraint firstItem="yKp-jl-rIX" firstAttribute="bottom" secondItem="cyL-9Q-Hoh" secondAttribute="bottomMargin" id="x7z-Uh-2gU"/>
+                                                <constraint firstItem="yKp-jl-rIX" firstAttribute="trailing" secondItem="cyL-9Q-Hoh" secondAttribute="trailingMargin" id="7Vc-DO-VvW"/>
+                                                <constraint firstItem="yKp-jl-rIX" firstAttribute="bottom" secondItem="cyL-9Q-Hoh" secondAttribute="bottomMargin" id="iud-kW-E9t"/>
+                                                <constraint firstItem="yKp-jl-rIX" firstAttribute="leading" secondItem="cyL-9Q-Hoh" secondAttribute="leadingMargin" constant="64" id="sat-Pq-WRX"/>
+                                                <constraint firstItem="yKp-jl-rIX" firstAttribute="top" secondItem="cyL-9Q-Hoh" secondAttribute="topMargin" id="zp4-QF-tJG"/>
                                             </constraints>
                                             <variation key="default">
                                                 <mask key="subviews">
                                                     <exclude reference="yKp-jl-rIX"/>
                                                 </mask>
                                                 <mask key="constraints">
-                                                    <exclude reference="0yq-CP-aga"/>
-                                                    <exclude reference="9wk-Li-oed"/>
-                                                    <exclude reference="QZt-CN-g5h"/>
-                                                    <exclude reference="x7z-Uh-2gU"/>
+                                                    <exclude reference="7Vc-DO-VvW"/>
+                                                    <exclude reference="iud-kW-E9t"/>
+                                                    <exclude reference="sat-Pq-WRX"/>
+                                                    <exclude reference="zp4-QF-tJG"/>
                                                 </mask>
                                             </variation>
                                             <variation key="widthClass=compact">
@@ -893,10 +893,10 @@
                                                     <include reference="yKp-jl-rIX"/>
                                                 </mask>
                                                 <mask key="constraints">
-                                                    <include reference="0yq-CP-aga"/>
-                                                    <include reference="9wk-Li-oed"/>
-                                                    <include reference="QZt-CN-g5h"/>
-                                                    <include reference="x7z-Uh-2gU"/>
+                                                    <include reference="7Vc-DO-VvW"/>
+                                                    <include reference="iud-kW-E9t"/>
+                                                    <include reference="sat-Pq-WRX"/>
+                                                    <include reference="zp4-QF-tJG"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
@@ -915,7 +915,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lxR-35-g5O" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-598.5" y="827"/>
+            <point key="canvasLocation" x="-599" y="827"/>
         </scene>
         <!--Home Tab Bar View Controller-->
         <scene sceneID="GCm-aX-lcY">
@@ -925,7 +925,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="selectedImageTintColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </tabBar>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="selectedIndex">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
                     <connections>
                         <segue destination="2o8-yB-Lup" kind="relationship" relationship="viewControllers" id="ax5-mG-j3o"/>
                         <segue destination="lym-NI-IfR" kind="relationship" relationship="viewControllers" id="K2X-1q-BaU"/>
@@ -940,7 +946,7 @@
         <scene sceneID="8wR-8H-jZC">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2o8-yB-Lup" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="알림" id="bOf-ZD-gTI"/>
+                    <tabBarItem key="tabBarItem" title="알림" image="tabbar_default_noticeIcon" selectedImage="tabbar_selected_noticeIcon" id="bOf-ZD-gTI"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="m44-vY-CCD">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -960,7 +966,7 @@
         <scene sceneID="Z9h-8Y-pqC">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lym-NI-IfR" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="피드" id="I7o-tv-WHE"/>
+                    <tabBarItem key="tabBarItem" title="피드" image="tabbar_default_feedsIcon" selectedImage="tabbar_selected_feedsIcon" id="I7o-tv-WHE"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Iv0-jR-WRE">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -980,7 +986,7 @@
         <scene sceneID="AvP-oN-Qg2">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="YIw-CQ-q6V" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="쪽지" id="Eiw-YD-z09"/>
+                    <tabBarItem key="tabBarItem" title="쪽지" image="tabbar_default_messageIcon" selectedImage="tabbar_selected_messageIcon" id="Eiw-YD-z09"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="5nk-4m-2ci">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -1000,5 +1006,11 @@
     <resources>
         <image name="homeBackgroundImg" width="1440" height="2560"/>
         <image name="menuListIcon" width="22" height="22"/>
+        <image name="tabbar_default_feedsIcon" width="22" height="22"/>
+        <image name="tabbar_default_messageIcon" width="22" height="22"/>
+        <image name="tabbar_default_noticeIcon" width="22" height="22"/>
+        <image name="tabbar_selected_feedsIcon" width="22" height="22"/>
+        <image name="tabbar_selected_messageIcon" width="22" height="22"/>
+        <image name="tabbar_selected_noticeIcon" width="22" height="22"/>
     </resources>
 </document>
