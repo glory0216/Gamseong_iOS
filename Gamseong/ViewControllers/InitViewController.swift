@@ -1,5 +1,5 @@
 //
-//  AlertView.swift
+//  InitViewController.swift
 //  Gamseong
 //
 //  Created by YoungKwangLee on 2016. 12. 28..

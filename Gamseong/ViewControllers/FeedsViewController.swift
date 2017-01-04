@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FeedsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class FeedsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate {
 
     @IBOutlet weak var topImageView: UIImageView!
     @IBOutlet weak var feedsTableView: UITableView!
@@ -29,8 +29,11 @@ class FeedsViewController: UIViewController, UITableViewDelegate, UITableViewDat
             menuBtn.action = #selector(SWRevealViewController.revealToggle(_:))
             self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         }
-    }
 
+        self.title = "강남구"
+        
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
