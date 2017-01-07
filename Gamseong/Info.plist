@@ -53,14 +53,14 @@
         <dict>
             <key>CFBundleURLSchemes</key>
             <array>
-                <string>fb135176980313240</string>
+                <string>fb1775080012753271</string>
             </array>
         </dict>
     </array>
     <key>FacebookAppID</key>
-    <string>135176980313240</string>
+    <string>1775080012753271</string>
     <key>FacebookDisplayName</key>
-    <string>yklee_loginDemo1</string>
+    <string>Gamseong</string>
     <key>LSApplicationQueriesSchemes</key>
     <array>
         <string>fbapi</string>

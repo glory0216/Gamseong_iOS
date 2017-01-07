@@ -22,7 +22,8 @@
 		5D93C6851E12C91B00D628FB /* NoticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D93C6841E12C91B00D628FB /* NoticeViewController.swift */; };
 		5D93C6871E12C92E00D628FB /* FeedsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D93C6861E12C92E00D628FB /* FeedsViewController.swift */; };
 		5D93C6891E12C94800D628FB /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D93C6881E12C94800D628FB /* MessageViewController.swift */; };
-		5D93C68B1E12CDDE00D628FB /* InitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D93C68A1E12CDDE00D628FB /* InitViewController.swift */; };
+		5DC768281E2139B100E5B8B4 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC768271E2139B100E5B8B4 /* BaseViewController.swift */; };
+		5DC7682A1E2139C800E5B8B4 /* SegueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC768291E2139C800E5B8B4 /* SegueViewController.swift */; };
 		5DD777061E124196001614B3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD777051E124196001614B3 /* LoginViewController.swift */; };
 		5DD777081E125378001614B3 /* HomeTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD777071E125378001614B3 /* HomeTabBarViewController.swift */; };
 		5DD7770A1E125AAC001614B3 /* LoginDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD777091E125AAC001614B3 /* LoginDetailViewController.swift */; };
@@ -74,7 +75,8 @@
 		5D93C6841E12C91B00D628FB /* NoticeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeViewController.swift; sourceTree = "<group>"; };
 		5D93C6861E12C92E00D628FB /* FeedsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedsViewController.swift; sourceTree = "<group>"; };
 		5D93C6881E12C94800D628FB /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
-		5D93C68A1E12CDDE00D628FB /* InitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitViewController.swift; sourceTree = "<group>"; };
+		5DC768271E2139B100E5B8B4 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		5DC768291E2139C800E5B8B4 /* SegueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueViewController.swift; sourceTree = "<group>"; };
 		5DD777051E124196001614B3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5DD777071E125378001614B3 /* HomeTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTabBarViewController.swift; sourceTree = "<group>"; };
 		5DD777091E125AAC001614B3 /* LoginDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginDetailViewController.swift; sourceTree = "<group>"; };
@@ -183,7 +185,8 @@
 		5D93C6831E12C74300D628FB /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				5D93C68A1E12CDDE00D628FB /* InitViewController.swift */,
+				5DC768291E2139C800E5B8B4 /* SegueViewController.swift */,
+				5DC768271E2139B100E5B8B4 /* BaseViewController.swift */,
 				5DF0AED51E13B1FA00A10BC2 /* SlideMenuViewController.swift */,
 				5DF0AED71E13BE1600A10BC2 /* SlideMenuTableViewController.swift */,
 				5DD777071E125378001614B3 /* HomeTabBarViewController.swift */,
@@ -500,8 +503,9 @@
 				5DD777081E125378001614B3 /* HomeTabBarViewController.swift in Sources */,
 				5DF0AED61E13B1FA00A10BC2 /* SlideMenuViewController.swift in Sources */,
 				5DD7770A1E125AAC001614B3 /* LoginDetailViewController.swift in Sources */,
-				5D93C68B1E12CDDE00D628FB /* InitViewController.swift in Sources */,
+				5DC7682A1E2139C800E5B8B4 /* SegueViewController.swift in Sources */,
 				5D93C6891E12C94800D628FB /* MessageViewController.swift in Sources */,
+				5DC768281E2139B100E5B8B4 /* BaseViewController.swift in Sources */,
 				5D93C6871E12C92E00D628FB /* FeedsViewController.swift in Sources */,
 				5DF0AED81E13BE1600A10BC2 /* SlideMenuTableViewController.swift in Sources */,
 				5DF0AECA1E139C1800A10BC2 /* FeedsTableViewCell.swift in Sources */,

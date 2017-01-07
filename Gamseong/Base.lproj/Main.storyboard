@@ -52,9 +52,6 @@
                                     <constraint firstAttribute="width" constant="101" id="1K3-dT-UhV"/>
                                     <constraint firstAttribute="height" constant="67" id="Ljz-EY-QYY"/>
                                 </constraints>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="0.0" width="95" height="53"/>
-                                </variation>
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="200" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="FZU-Fu-dTt">
                                 <rect key="frame" x="0.0" y="183" width="600" height="368"/>
@@ -100,9 +97,6 @@
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
-                                                    <variation key="widthClass=compact" fixedFrame="YES">
-                                                        <rect key="frame" x="272" y="0.0" width="120" height="33"/>
-                                                    </variation>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Like" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OTg-ZE-Gwm">
                                                     <rect key="frame" x="502" y="41" width="90" height="33"/>
@@ -112,9 +106,6 @@
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
-                                                    <variation key="widthClass=compact" fixedFrame="YES">
-                                                        <rect key="frame" x="302" y="41" width="90" height="33"/>
-                                                    </variation>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nel-7W-ZLy">
                                                     <rect key="frame" x="8" y="161" width="90" height="30"/>
@@ -130,9 +121,6 @@
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QKw-q7-xOf">
                                                     <rect key="frame" x="502" y="161" width="90" height="30"/>
                                                     <state key="normal" title="쪽지"/>
-                                                    <variation key="widthClass=compact" fixedFrame="YES">
-                                                        <rect key="frame" x="302" y="6" width="90" height="30"/>
-                                                    </variation>
                                                     <connections>
                                                         <action selector="touchMessageBtn:" destination="Ddp-Re-ahM" eventType="touchUpInside" id="K8h-Gz-bja"/>
                                                     </connections>
@@ -149,9 +137,6 @@
                                                         <constraint firstAttribute="width" constant="90" id="GA7-De-CJz"/>
                                                     </constraints>
                                                     <state key="normal" title="댓글"/>
-                                                    <variation key="widthClass=compact" fixedFrame="YES">
-                                                        <rect key="frame" x="155" y="6" width="90" height="30"/>
-                                                    </variation>
                                                     <connections>
                                                         <action selector="touchCommentBtn:" destination="Ddp-Re-ahM" eventType="touchUpInside" id="4M8-zl-yiO"/>
                                                     </connections>
@@ -195,9 +180,6 @@
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="133" width="400" height="418"/>
-                                </variation>
                             </tableView>
                             <searchBar contentMode="redraw" placeholder="검색어를 입력하세요" translatesAutoresizingMaskIntoConstraints="NO" id="MX3-D3-SVI">
                                 <rect key="frame" x="0.0" y="64" width="600" height="44"/>
@@ -210,9 +192,6 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h8i-Pe-GHa">
                                 <rect key="frame" x="109" y="108" width="491" height="67"/>
                                 <state key="normal" title="후기나 생각을 공유해주세요"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="103" y="0.0" width="297" height="53"/>
-                                </variation>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -430,7 +409,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MHN-2f-2aB">
-                                <rect key="frame" x="286" y="242" width="30" height="30"/>
+                                <rect key="frame" x="285" y="242" width="30" height="30"/>
                                 <state key="normal" title="취소"/>
                                 <connections>
                                     <action selector="touchCancelBtn:" destination="xYF-IG-Gwp" eventType="touchUpInside" id="mgK-c1-8oq"/>
@@ -657,6 +636,9 @@
                                                     <state key="normal" title="메인페이지">
                                                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     </state>
+                                                    <variation key="widthClass=compact" misplaced="YES">
+                                                        <rect key="frame" x="72" y="8" width="160" height="49"/>
+                                                    </variation>
                                                 </button>
                                             </subviews>
                                             <constraints>
@@ -702,6 +684,9 @@
                                                     <state key="normal" title="Weekly 감성 Best">
                                                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     </state>
+                                                    <variation key="widthClass=compact" misplaced="YES">
+                                                        <rect key="frame" x="72" y="9" width="160" height="49"/>
+                                                    </variation>
                                                 </button>
                                             </subviews>
                                             <constraints>
@@ -747,6 +732,9 @@
                                                     <state key="normal" title="설정">
                                                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     </state>
+                                                    <variation key="widthClass=compact" misplaced="YES">
+                                                        <rect key="frame" x="72" y="9" width="160" height="49"/>
+                                                    </variation>
                                                 </button>
                                             </subviews>
                                             <constraints>
@@ -792,6 +780,9 @@
                                                     <state key="normal" title="로그아웃">
                                                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     </state>
+                                                    <variation key="widthClass=compact" misplaced="YES">
+                                                        <rect key="frame" x="72" y="8" width="160" height="49"/>
+                                                    </variation>
                                                 </button>
                                             </subviews>
                                             <constraints>

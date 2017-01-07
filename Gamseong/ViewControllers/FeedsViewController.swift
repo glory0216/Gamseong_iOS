@@ -29,8 +29,14 @@ class FeedsViewController: UIViewController, UITableViewDelegate, UITableViewDat
             menuBtn.action = #selector(SWRevealViewController.revealToggle(_:))
             self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         }
-
-        self.title = "강남구"
+        
+        self.navigationItem.title = "강남구"
+        
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        
+        self.navigationItem.title = "강남구"
         
     }
     

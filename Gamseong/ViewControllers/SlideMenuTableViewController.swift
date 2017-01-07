@@ -15,11 +15,6 @@ class SlideMenuTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
 
     override func didReceiveMemoryWarning() {
@@ -31,15 +26,21 @@ class SlideMenuTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
         if (indexPath.row == 0) {
-            
+            print("메인 페이지")
         }
         else if (indexPath.row == 1) {
-            
+            print("Weekly Best")
         }
         else if (indexPath.row == 2) {
-            
+            print("Setting")
         }
         else if (indexPath.row == 3) {
+            print("logout")
+            
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let loginVC = storyboard.instantiateViewControllerWithIdentifier("LoginVC") as! LoginViewController
+            let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+            appDelegate.window?.rootViewController = loginVC
             
         }
         
