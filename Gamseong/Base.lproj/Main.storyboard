@@ -240,51 +240,123 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homeBackgroundImg" translatesAutoresizingMaskIntoConstraints="NO" id="IgX-2g-b8a">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="400" height="600"/>
+                                </variation>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0wD-HQ-w2M">
-                                <rect key="frame" x="212" y="435" width="176" height="30"/>
-                                <state key="normal" title="Facebook으로 로그인"/>
-                                <connections>
-                                    <action selector="touchLoginWithFacebookBtn:" destination="ZbG-cw-BHz" eventType="touchUpInside" id="a1C-qT-l1u"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="14b-ua-8CT">
-                                <rect key="frame" x="212" y="496" width="60" height="30"/>
+                                <rect key="frame" x="20" y="496" width="272" height="44"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="60" id="Ihy-ON-ck5"/>
+                                    <constraint firstAttribute="height" constant="44" id="Mhe-E5-uDP"/>
+                                    <constraint firstAttribute="width" constant="272" id="wLo-gi-a7J"/>
                                 </constraints>
-                                <state key="normal" title="회원가입"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <state key="normal" title="회원가입">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="moveToSignupVC:" destination="ZbG-cw-BHz" eventType="touchUpInside" id="Aed-zp-d4m"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="psT-hD-kIz">
-                                <rect key="frame" x="328" y="496" width="60" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="60" id="qcU-aQ-ia8"/>
-                                </constraints>
-                                <state key="normal" title="로그인"/>
+                                <rect key="frame" x="308" y="496" width="272" height="44"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                <state key="normal" title="로그인">
+                                    <color key="titleColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="308" y="496" width="72" height="44"/>
+                                </variation>
                                 <connections>
                                     <action selector="moveToLoginDVC:" destination="ZbG-cw-BHz" eventType="touchUpInside" id="Vr4-0r-OcC"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Qq7-KL-cpa">
+                                <rect key="frame" x="236" y="104" width="128" height="94"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="94" id="Hb6-N9-xfv"/>
+                                    <constraint firstAttribute="width" constant="128" id="QO6-AZ-maa"/>
+                                </constraints>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="136" y="104" width="128" height="94"/>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="감성여행" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VZu-Vb-4Ud">
+                                <rect key="frame" x="236" y="206" width="128" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="d3D-az-Pup"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="136" y="206" width="128" height="40"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="내가 있는 이곳에서 시작하다" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pEs-9W-I33">
+                                <rect key="frame" x="212" y="254" width="176" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="176" id="Qqk-Z4-G56"/>
+                                    <constraint firstAttribute="height" constant="21" id="mrv-PU-HUK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="112" y="254" width="176" height="21"/>
+                                </variation>
+                            </label>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0wD-HQ-w2M">
+                                <rect key="frame" x="20" y="444" width="560" height="44"/>
+                                <color key="backgroundColor" red="0.13081100583076477" green="0.24579396843910217" blue="0.84970003366470337" alpha="0.39827586206896554" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="ltr-iX-s4a"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                <state key="normal" title="Facebook으로 로그인">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="444" width="360" height="44"/>
+                                </variation>
+                                <connections>
+                                    <action selector="touchLoginWithFacebookBtn:" destination="ZbG-cw-BHz" eventType="touchUpInside" id="a1C-qT-l1u"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="IgX-2g-b8a" secondAttribute="trailing" id="8zP-bF-NUh"/>
-                            <constraint firstItem="14b-ua-8CT" firstAttribute="top" secondItem="0wD-HQ-w2M" secondAttribute="bottom" constant="31" id="KNC-Ny-R7u"/>
-                            <constraint firstItem="14b-ua-8CT" firstAttribute="baseline" secondItem="psT-hD-kIz" secondAttribute="baseline" id="KRd-v3-uGt"/>
-                            <constraint firstItem="IgX-2g-b8a" firstAttribute="top" secondItem="i56-5n-HlV" secondAttribute="top" id="Koc-bb-4o5"/>
-                            <constraint firstItem="psT-hD-kIz" firstAttribute="leading" secondItem="14b-ua-8CT" secondAttribute="trailing" constant="56" id="KqE-eA-anc"/>
-                            <constraint firstItem="qBn-jI-cxm" firstAttribute="top" secondItem="14b-ua-8CT" secondAttribute="bottom" constant="74" id="OWr-p6-CJY"/>
-                            <constraint firstItem="IgX-2g-b8a" firstAttribute="centerX" secondItem="0wD-HQ-w2M" secondAttribute="centerX" id="Rhb-r8-Plf"/>
-                            <constraint firstItem="0wD-HQ-w2M" firstAttribute="trailing" secondItem="psT-hD-kIz" secondAttribute="trailing" id="SG6-u5-f13"/>
-                            <constraint firstItem="IgX-2g-b8a" firstAttribute="leading" secondItem="i56-5n-HlV" secondAttribute="leading" id="TfB-Pj-6yX"/>
-                            <constraint firstItem="0wD-HQ-w2M" firstAttribute="leading" secondItem="14b-ua-8CT" secondAttribute="leading" id="e2c-Fn-h8Z"/>
-                            <constraint firstItem="IgX-2g-b8a" firstAttribute="bottom" secondItem="qBn-jI-cxm" secondAttribute="top" id="u9W-rV-wXe"/>
+                            <constraint firstItem="VZu-Vb-4Ud" firstAttribute="top" secondItem="Qq7-KL-cpa" secondAttribute="bottom" constant="8" symbolic="YES" id="1de-4a-rJx"/>
+                            <constraint firstItem="psT-hD-kIz" firstAttribute="baseline" secondItem="14b-ua-8CT" secondAttribute="firstBaseline" id="4JY-45-iHA"/>
+                            <constraint firstItem="Qq7-KL-cpa" firstAttribute="top" secondItem="ZMf-il-dhS" secondAttribute="bottom" constant="84" id="7g9-gk-6EM"/>
+                            <constraint firstItem="14b-ua-8CT" firstAttribute="baseline" secondItem="psT-hD-kIz" secondAttribute="firstBaseline" id="ESE-su-aUL"/>
+                            <constraint firstItem="psT-hD-kIz" firstAttribute="leading" secondItem="14b-ua-8CT" secondAttribute="trailing" constant="16" id="IUx-1c-0Br"/>
+                            <constraint firstItem="0wD-HQ-w2M" firstAttribute="trailing" secondItem="psT-hD-kIz" secondAttribute="trailing" id="Lrt-uG-NOi"/>
+                            <constraint firstItem="pEs-9W-I33" firstAttribute="top" secondItem="VZu-Vb-4Ud" secondAttribute="bottom" constant="8" symbolic="YES" id="Oj8-5t-7U7"/>
+                            <constraint firstItem="VZu-Vb-4Ud" firstAttribute="centerX" secondItem="pEs-9W-I33" secondAttribute="centerX" id="Oyh-A6-bSl"/>
+                            <constraint firstItem="Qq7-KL-cpa" firstAttribute="leading" secondItem="VZu-Vb-4Ud" secondAttribute="leading" id="PWZ-rS-Zh5"/>
+                            <constraint firstItem="IgX-2g-b8a" firstAttribute="bottom" secondItem="qBn-jI-cxm" secondAttribute="top" id="Pi7-bb-qbR"/>
+                            <constraint firstItem="IgX-2g-b8a" firstAttribute="leading" secondItem="i56-5n-HlV" secondAttribute="leading" id="T3n-1x-K9k"/>
+                            <constraint firstItem="IgX-2g-b8a" firstAttribute="top" secondItem="i56-5n-HlV" secondAttribute="top" id="Tda-ox-LM1"/>
+                            <constraint firstItem="IgX-2g-b8a" firstAttribute="centerX" secondItem="Qq7-KL-cpa" secondAttribute="centerX" id="VAm-N5-1cl"/>
+                            <constraint firstItem="0wD-HQ-w2M" firstAttribute="leading" secondItem="14b-ua-8CT" secondAttribute="leading" id="b20-0M-dWa"/>
+                            <constraint firstItem="qBn-jI-cxm" firstAttribute="top" secondItem="14b-ua-8CT" secondAttribute="bottom" constant="60" id="bGx-ix-AuG"/>
+                            <constraint firstItem="Qq7-KL-cpa" firstAttribute="trailing" secondItem="VZu-Vb-4Ud" secondAttribute="trailing" id="cYq-hV-u4e"/>
+                            <constraint firstAttribute="trailing" secondItem="IgX-2g-b8a" secondAttribute="trailing" id="daT-Ig-ejB"/>
+                            <constraint firstItem="0wD-HQ-w2M" firstAttribute="leading" secondItem="i56-5n-HlV" secondAttribute="leadingMargin" id="gPx-gs-yXA"/>
+                            <constraint firstItem="psT-hD-kIz" firstAttribute="width" secondItem="14b-ua-8CT" secondAttribute="width" id="gcI-EJ-PBe"/>
+                            <constraint firstItem="pEs-9W-I33" firstAttribute="centerX" secondItem="0wD-HQ-w2M" secondAttribute="centerX" id="mIh-ga-3ss"/>
+                            <constraint firstItem="14b-ua-8CT" firstAttribute="top" secondItem="0wD-HQ-w2M" secondAttribute="bottom" constant="8" symbolic="YES" id="nT2-7y-yut"/>
+                            <constraint firstItem="14b-ua-8CT" firstAttribute="top" secondItem="psT-hD-kIz" secondAttribute="top" id="ozI-hB-FhL"/>
                         </constraints>
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <connections>
+                        <outlet property="facebookLoginBtn" destination="0wD-HQ-w2M" id="SvZ-63-1HO"/>
+                        <outlet property="loginBtn" destination="psT-hD-kIz" id="VQb-U6-1cp"/>
+                        <outlet property="logoImageView" destination="Qq7-KL-cpa" id="bHl-uq-KrT"/>
+                        <outlet property="registerBtn" destination="14b-ua-8CT" id="4NJ-ce-IT8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YuQ-XU-aoU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -636,9 +708,6 @@
                                                     <state key="normal" title="메인페이지">
                                                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     </state>
-                                                    <variation key="widthClass=compact" misplaced="YES">
-                                                        <rect key="frame" x="72" y="8" width="160" height="49"/>
-                                                    </variation>
                                                 </button>
                                             </subviews>
                                             <constraints>
@@ -684,9 +753,6 @@
                                                     <state key="normal" title="Weekly 감성 Best">
                                                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     </state>
-                                                    <variation key="widthClass=compact" misplaced="YES">
-                                                        <rect key="frame" x="72" y="9" width="160" height="49"/>
-                                                    </variation>
                                                 </button>
                                             </subviews>
                                             <constraints>
@@ -732,9 +798,6 @@
                                                     <state key="normal" title="설정">
                                                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     </state>
-                                                    <variation key="widthClass=compact" misplaced="YES">
-                                                        <rect key="frame" x="72" y="9" width="160" height="49"/>
-                                                    </variation>
                                                 </button>
                                             </subviews>
                                             <constraints>
@@ -780,9 +843,6 @@
                                                     <state key="normal" title="로그아웃">
                                                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     </state>
-                                                    <variation key="widthClass=compact" misplaced="YES">
-                                                        <rect key="frame" x="72" y="8" width="160" height="49"/>
-                                                    </variation>
                                                 </button>
                                             </subviews>
                                             <constraints>

@@ -13,10 +13,26 @@ class LoginViewController: UIViewController {
 
     let fbLoginUrl = NSURL(string: "http://52.78.110.20:8080/gamseongAccounts/users/facebook")
     
+    @IBOutlet weak var logoImageView: UIImageView!
+    @IBOutlet weak var registerBtn: UIButton!
+    @IBOutlet weak var loginBtn: UIButton!
+    @IBOutlet weak var facebookLoginBtn: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        
+        facebookLoginBtn.layer.cornerRadius = 5
+        registerBtn.layer.cornerRadius = 5
+        registerBtn.layer.borderWidth = 1
+        registerBtn.layer.borderColor = UIColor.whiteColor().CGColor
+        loginBtn.layer.cornerRadius = 5
+        loginBtn.layer.borderWidth = 1
+        loginBtn.layer.borderColor = UIColor.orangeColor().CGColor
+        
+        logoImageView.image = UIImage(named: "logoImg")
     }
 
     override func viewDidAppear(animated: Bool) {
