@@ -102,10 +102,10 @@ class LoginDetailViewController: UIViewController {
                     else {
                         self.displayDefaultAlertMessage("이메일 또는 비밀번호가 틀립니다.")
                         
-                        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-                        let revealViewController = storyboard.instantiateViewControllerWithIdentifier("RevealViewController") as! SWRevealViewController
-                        let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
-                        appDelegate.window?.rootViewController = revealViewController
+//                        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//                        let revealViewController = storyboard.instantiateViewControllerWithIdentifier("RevealViewController") as! SWRevealViewController
+//                        let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+//                        appDelegate.window?.rootViewController = revealViewController
                     }
                     
                     

@@ -111,7 +111,6 @@ class LoginViewController: UIViewController {
                     ]
                     
                     print("facebook user info : \(tmpDic)")
-                    
                     self.fbLoginWithAlamofire(tmpDic)
                 }
                 
